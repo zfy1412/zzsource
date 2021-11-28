@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>echarts</title>
+    <!--    <style type='text/css'>body{margin:0;padding:0;overflow:hidden;font-family:'Segoe UI',Helvetica,Arial,Sans-Serif}</style>-->
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"  crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../views/JS/map.js"></script>
+    <script src="../views/JS/echarts.js"></script>
+    <link rel="stylesheet" href="../views/CSS/echarts.css">
+</head>
+<body >
+<div><script>sumN()</script></div>
+<div id='runtime'><script>setRuntime()</script></div>
+<div id='memory'><script>setMemory()</script></div>
+
+<div id='c2'><script>test2()</script></div>
+
+<div style="padding:10vh ">
+    <table class="table table-bordered table-striped" id="compareTable" >
+        <thead>
+        <tr id="tableHead">
+            <th scope="col">Alg</th>
+            <th scope="col" id="alg1"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="tableBody">
+            <th scope="row">top-k</th>
+            <td id="alg1k"></td>
+
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div><script>appendTable()</script></div>
+</body>
+</html>
